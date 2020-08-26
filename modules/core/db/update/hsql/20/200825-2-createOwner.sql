@@ -1,0 +1,1 @@
+create unique index IDX_CLINIC_OWNER_UNIQ_EMAIL on CLINIC_OWNER (EMAIL);

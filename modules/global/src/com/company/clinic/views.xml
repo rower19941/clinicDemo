@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+
+    <view entity="clinic_Consumable" name="consumable-view" extends="_local"/>
+    <view entity="clinic_Visit" name="visit-load" extends="_local">
+        <property name="pet" view="_minimal">
+            <property name="owner" view="_minimal"/>
+        </property>
+    </view>
+</views>

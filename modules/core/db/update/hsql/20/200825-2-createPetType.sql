@@ -1,0 +1,1 @@
+create unique index IDX_CLINIC_PET_TYPE_UNIQ_NAME on CLINIC_PET_TYPE (NAME);
